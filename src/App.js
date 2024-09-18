@@ -23,6 +23,7 @@ export default function App() {
           <option value="lightcoral">lightcoral</option>
           <option value="midnightblue">midnightblue</option>
           <option value="rebeccapurple">rebeccapurple</option>
+          <option value="teal">teal</option>
         </select>
       </p>
       <Clock color={color} time={time.toLocaleTimeString()} />
